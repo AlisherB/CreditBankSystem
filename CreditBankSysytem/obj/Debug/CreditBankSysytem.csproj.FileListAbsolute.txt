@@ -20,3 +20,28 @@ Z:\WPF\CreditBankSysytem\CreditBankSysytem\obj\Debug\CreditBankSysytem.Propertie
 Z:\WPF\CreditBankSysytem\CreditBankSysytem\obj\Debug\CreditBankSysytem.csproj.GenerateResource.Cache
 Z:\WPF\CreditBankSysytem\CreditBankSysytem\obj\Debug\CreditBankSysytem.exe
 Z:\WPF\CreditBankSysytem\CreditBankSysytem\obj\Debug\CreditBankSysytem.pdb
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\C#\GitHub\CreditBankSystem\CreditBankSysytem\obj\Debug\CreditBankSysytem.csprojResolveAssemblyReference.cache
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\C#\GitHub\CreditBankSystem\CreditBankSysytem\obj\Debug\AuthorityPage.g.cs
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\C#\GitHub\CreditBankSystem\CreditBankSysytem\obj\Debug\MainWindow.g.cs
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\C#\GitHub\CreditBankSystem\CreditBankSysytem\obj\Debug\RegistrationPage.g.cs
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\C#\GitHub\CreditBankSystem\CreditBankSysytem\obj\Debug\App.g.cs
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\C#\GitHub\CreditBankSystem\CreditBankSysytem\obj\Debug\CreditBankSysytem_MarkupCompile.cache
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\C#\GitHub\CreditBankSystem\CreditBankSysytem\obj\Debug\CreditBankSysytem_MarkupCompile.lref
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\C#\GitHub\CreditBankSystem\CreditBankSysytem\obj\Debug\CreditBankSysytem.exe
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\C#\GitHub\CreditBankSystem\CreditBankSysytem\obj\Debug\CreditBankSysytem.pdb
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\C#\GitHub\CreditBankSystem\CreditBankSysytem\bin\Debug\RegistrationPage.xaml.cs
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\C#\GitHub\CreditBankSystem\CreditBankSysytem\bin\Debug\AuthorityPage.xaml.cs
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\C#\GitHub\CreditBankSystem\CreditBankSysytem\bin\Debug\CreditBankSysytem.exe.config
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\C#\GitHub\CreditBankSystem\CreditBankSysytem\bin\Debug\CreditBankSysytem.exe
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\C#\GitHub\CreditBankSystem\CreditBankSysytem\bin\Debug\CreditBankSysytem.pdb
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\C#\GitHub\CreditBankSystem\CreditBankSysytem\bin\Debug\BankSystemLibrary.dll
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\C#\GitHub\CreditBankSystem\CreditBankSysytem\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\C#\GitHub\CreditBankSystem\CreditBankSysytem\bin\Debug\BankSystemLibrary.pdb
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\C#\GitHub\CreditBankSystem\CreditBankSysytem\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\C#\GitHub\CreditBankSystem\CreditBankSysytem\obj\Debug\AuthorityPage.baml
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\C#\GitHub\CreditBankSystem\CreditBankSysytem\obj\Debug\MainWindow.baml
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\C#\GitHub\CreditBankSystem\CreditBankSysytem\obj\Debug\RegistrationPage.baml
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\C#\GitHub\CreditBankSystem\CreditBankSysytem\obj\Debug\CreditBankSysytem.g.resources
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\C#\GitHub\CreditBankSystem\CreditBankSysytem\obj\Debug\CreditBankSysytem.Properties.Resources.resources
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\C#\GitHub\CreditBankSystem\CreditBankSysytem\obj\Debug\CreditBankSysytem.csproj.GenerateResource.Cache
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\C#\GitHub\CreditBankSystem\CreditBankSysytem\obj\Debug\CreditBankSysytem.csproj.CoreCompileInputs.cache

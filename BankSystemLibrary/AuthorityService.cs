@@ -7,16 +7,13 @@ using System.Threading.Tasks;
 
 namespace BankSystemLibrary
 {
-    public class AuthorityService
+    public class AuthorityService : Service
     {
-        private string hashedIIN;
-        private string hashedPassword;
-        private List<User> users;
-        public User AuthorityVerify(string iin, string password)
+        public User AuthorityVerify(long iin, string password)
         {
-            foreach (var user in users)
+            foreach (var user in Database.GetUsers())
             {
-                if (iin == user.IIN && password, user.Password)
+                if (user.IIN == iin && user.Password == password)
                 {
                     return user;
                 }

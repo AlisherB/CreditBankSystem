@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BankSystemLibrary;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -27,18 +28,6 @@ namespace CreditBankSysytem
             incorrectTextBlock.Visibility = Visibility.Hidden;
         }
 
-        private void TextBoxIIN_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (((int)e.Key <= 47 || (int)e.Key >= 59) && (int)e.Key != 8)
-                e.Handled = true;
-        }
-
-        private void TelephoneTextBox_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (((int)e.Key <= 47 || (int)e.Key >= 59) && (int)e.Key != 8)
-                e.Handled = true;
-        }
-
         private void SignUpButton_Click(object sender, RoutedEventArgs e)
         {
             if(!string.IsNullOrWhiteSpace(fullNameTextBox.Text) || 
@@ -49,17 +38,30 @@ namespace CreditBankSysytem
                 {
                     Id = Guid.NewGuid(),
                     FullName = fullNameTextBox.Text,
-                    IIN = textBoxIIN.Text,
-                    Email=emailTextBox.Text,
-                    Telephone=telephoneTextBox.Text,
-                    Password = passwordTextBox.Text,
+                    IIN = Int64.Parse(textBoxIIN.Text),
+                    Email = emailTextBox.Text,
+                    Telephone = Int64.Parse(telephoneTextBox.Text),
+                    Password = RandomPassword(),
                 };
-                AuthorityService.CryptData(user);
                 mainWindow = new MainWindow();
                 mainWindow.mainFrame.NavigationService.Navigate(new Uri("AuthorityPage.xaml", UriKind.RelativeOrAbsolute));
             }
             else incorrectTextBlock.Visibility = Visibility.Visible;
 
+        }
+
+        public string RandomPassword()
+        {
+            int[] arr = new int[8];
+            Random rnd = new Random();
+            string Password = "";
+
+            for (int i = 0; i < arr.Length; i++)
+            {
+                arr[i] = rnd.Next(33, 125);
+                Password += (char)arr[i];
+            }
+            return Password;
         }
     }
 }

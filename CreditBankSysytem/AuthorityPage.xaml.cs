@@ -26,19 +26,7 @@ namespace CreditBankSysytem
             InitializeComponent();
             incorrectTextBlock.Visibility = Visibility.Hidden;
         }
-
-        private void TextBoxIIN_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (((int)e.Key <= 47 || (int)e.Key >= 59) && (int)e.Key != 8)
-                e.Handled = true;
-        }
-
-        private void SignUpTextBlock_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
-        {
-            mainWindow = new MainWindow();
-            mainWindow.mainFrame.NavigationService.Navigate(new Uri("RegistrationPage.xaml", UriKind.RelativeOrAbsolute));
-        }
-
+        
         private void SignInButton_Click(object sender, RoutedEventArgs e)
         {
             if ((!string.IsNullOrWhiteSpace(textBoxIIN.Text) || textBoxIIN.Text.Length == 12) || !string.IsNullOrWhiteSpace(passwordTextBox.Text))
@@ -47,6 +35,12 @@ namespace CreditBankSysytem
             }
 
             incorrectTextBlock.Visibility = Visibility.Visible;
+        }
+
+        private void SignUpButton_Click(object sender, RoutedEventArgs e)
+        {
+            mainWindow = new MainWindow();
+            mainWindow.mainFrame.NavigationService.Navigate(new Uri("RegistrationPage.xaml", UriKind.RelativeOrAbsolute));
         }
     }
 }

@@ -10,10 +10,10 @@ namespace CreditBankSysytem
     {
         public Guid Id { get; set; }
         public string FullName { get; set; }
-        public string IIN { get; set; }
+        public long IIN { get; set; }
         public string Password { get; set; }
         public string Email { get; set; }
-        public string Telephone { get; set; }
+        public long Telephone { get; set; }
 
         public Branch BranchName;
 

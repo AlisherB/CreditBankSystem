@@ -3,3 +3,10 @@ Z:\WPF\CreditBankSysytem\BankSystemLibrary\bin\Debug\BankSystemLibrary.pdb
 Z:\WPF\CreditBankSysytem\BankSystemLibrary\obj\Debug\BankSystemLibrary.csprojResolveAssemblyReference.cache
 Z:\WPF\CreditBankSysytem\BankSystemLibrary\obj\Debug\BankSystemLibrary.dll
 Z:\WPF\CreditBankSysytem\BankSystemLibrary\obj\Debug\BankSystemLibrary.pdb
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\C#\GitHub\CreditBankSystem\BankSystemLibrary\obj\Debug\BankSystemLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\C#\GitHub\CreditBankSystem\BankSystemLibrary\obj\Debug\BankSystemLibrary.dll
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\C#\GitHub\CreditBankSystem\BankSystemLibrary\obj\Debug\BankSystemLibrary.pdb
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\C#\GitHub\CreditBankSystem\BankSystemLibrary\bin\Debug\BankSystemLibrary.dll
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\C#\GitHub\CreditBankSystem\BankSystemLibrary\bin\Debug\BankSystemLibrary.pdb
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\C#\GitHub\CreditBankSystem\BankSystemLibrary\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\C#\GitHub\CreditBankSystem\BankSystemLibrary\bin\Debug\Newtonsoft.Json.xml

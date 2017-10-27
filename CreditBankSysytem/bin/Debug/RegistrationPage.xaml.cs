@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BankSystemLibrary;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -45,11 +46,34 @@ namespace CreditBankSysytem
                 (!string.IsNullOrWhiteSpace(textBoxIIN.Text) || textBoxIIN.Text.Length == 12) ||
                 !string.IsNullOrWhiteSpace(passwordTextBox.Text))
             {
+                User user = new User()
+                {
+                    Id = Guid.NewGuid(),
+                    FullName = fullNameTextBox.Text,
+                    IIN = textBoxIIN.Text,
+                    Email=emailTextBox.Text,
+                    Telephone=telephoneTextBox.Text,
+                    Password = RandomPassword(),
+                };
                 mainWindow = new MainWindow();
-                mainWindow.mainFrame.NavigationService.Navigate(new Uri("AuthorityPage.xaml", UriKind.Relative));
+                mainWindow.mainFrame.NavigationService.Navigate(new Uri("AuthorityPage.xaml", UriKind.RelativeOrAbsolute));
             }
             else incorrectTextBlock.Visibility = Visibility.Visible;
 
+        }
+
+        public string RandomPassword()
+        {
+            int[] arr = new int[8];
+            Random rnd = new Random();
+            string Password = "";
+
+            for (int i = 0; i < arr.Length; i++)
+            {
+                arr[i] = rnd.Next(33, 125);
+                Password += (char)arr[i];
+            }
+            return Password;
         }
     }
 }
