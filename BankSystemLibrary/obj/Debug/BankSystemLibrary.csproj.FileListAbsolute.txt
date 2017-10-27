@@ -1,0 +1,5 @@
+Z:\WPF\CreditBankSysytem\BankSystemLibrary\bin\Debug\BankSystemLibrary.dll
+Z:\WPF\CreditBankSysytem\BankSystemLibrary\bin\Debug\BankSystemLibrary.pdb
+Z:\WPF\CreditBankSysytem\BankSystemLibrary\obj\Debug\BankSystemLibrary.csprojResolveAssemblyReference.cache
+Z:\WPF\CreditBankSysytem\BankSystemLibrary\obj\Debug\BankSystemLibrary.dll
+Z:\WPF\CreditBankSysytem\BankSystemLibrary\obj\Debug\BankSystemLibrary.pdb
